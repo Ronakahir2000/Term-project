@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Sorting section */
+#sorting-section {
+    margin-bottom: 20px;
+}
+
+/* Cryptocurrency listing and comparison sections */
+.crypto-list,
+.comparison-section {
+    margin-bottom: 20px;
+}
+
+.crypto-item,
+.comparison-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+
+    .crypto-item,
+    .comparison-item {
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
